@@ -19,6 +19,7 @@
 		EABBFD34233456C900974CDF /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABBFD33233456C900974CDF /* BlackBgView.swift */; };
 		EABBFD37233458DB00974CDF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABBFD36233458DB00974CDF /* Constants.swift */; };
 		EAEAF4582339DC90006CF92F /* FadeEnabledBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF4572339DC90006CF92F /* FadeEnabledBtn.swift */; };
+		EAEAF45A233A820E006CF92F /* HomeworldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF459233A820E006CF92F /* HomeworldVC.swift */; };
 		EAF5B9FB233469BE00D0C535 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5B9FA233469BE00D0C535 /* PersonApi.swift */; };
 		EAF5B9FD2335322700D0C535 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5B9FC2335322700D0C535 /* Person.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		EABBFD33233456C900974CDF /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
 		EABBFD36233458DB00974CDF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EAEAF4572339DC90006CF92F /* FadeEnabledBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeEnabledBtn.swift; sourceTree = "<group>"; };
+		EAEAF459233A820E006CF92F /* HomeworldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldVC.swift; sourceTree = "<group>"; };
 		EAF5B9FA233469BE00D0C535 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
 		EAF5B9FC2335322700D0C535 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,7 +100,6 @@
 				EABBFD3123342A0000974CDF /* View */,
 				EABBFD302334296E00974CDF /* Controllers */,
 				EABBFD162334226B00974CDF /* AppDelegate.swift */,
-				EABBFD182334226B00974CDF /* SelectPersonVC.swift */,
 				EAF5B9F92334699500D0C535 /* Services */,
 				EABBFD352334588400974CDF /* Utils */,
 				EABBFD2F2334295E00974CDF /* Resources */,
@@ -131,6 +132,8 @@
 		EABBFD302334296E00974CDF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				EABBFD182334226B00974CDF /* SelectPersonVC.swift */,
+				EAEAF459233A820E006CF92F /* HomeworldVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				EABBFD172334226B00974CDF /* AppDelegate.swift in Sources */,
 				EABBFD34233456C900974CDF /* BlackBgView.swift in Sources */,
 				EAF5B9FB233469BE00D0C535 /* PersonApi.swift in Sources */,
+				EAEAF45A233A820E006CF92F /* HomeworldVC.swift in Sources */,
 				EABBFD37233458DB00974CDF /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

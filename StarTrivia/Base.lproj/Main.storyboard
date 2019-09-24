@@ -197,6 +197,7 @@
                                                 <state key="normal" image="homeworld_icon"/>
                                                 <connections>
                                                     <action selector="homeworldClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c9d-Zs-OAw"/>
+                                                    <segue destination="QEg-De-l3N" kind="show" id="l8N-xv-g55"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="znM-QR-qBx">
@@ -208,6 +209,7 @@
                                                 <state key="normal" image="vehicles"/>
                                                 <connections>
                                                     <action selector="vehiclesClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Ny-Lk-N4I"/>
+                                                    <segue destination="nhE-Nr-io4" kind="show" id="C14-f4-jtc"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVP-Fw-J7L">
@@ -219,6 +221,7 @@
                                                 <state key="normal" image="starships"/>
                                                 <connections>
                                                     <action selector="starshipsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DPo-BD-ewt"/>
+                                                    <segue destination="SJD-xo-MGw" kind="show" id="AMa-dk-GgN"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WO1-tQ-aeP">
@@ -230,6 +233,7 @@
                                                 <state key="normal" image="films"/>
                                                 <connections>
                                                     <action selector="filmsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v1A-bC-m5J"/>
+                                                    <segue destination="pZ9-aG-RhO" kind="show" id="aRd-yK-b2w"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -282,6 +286,114 @@
             </objects>
             <point key="canvasLocation" x="994" y="734"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="gF8-T7-Q6r">
+            <objects>
+                <viewController id="QEg-De-l3N" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eYB-zf-nGS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeworld" translatesAutoresizingMaskIntoConstraints="NO" id="LrM-m3-Y4I">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="xdq-fD-xEY" firstAttribute="trailing" secondItem="LrM-m3-Y4I" secondAttribute="trailing" id="0Q7-TY-84Q"/>
+                            <constraint firstItem="LrM-m3-Y4I" firstAttribute="leading" secondItem="xdq-fD-xEY" secondAttribute="leading" id="jmo-92-Qsv"/>
+                            <constraint firstItem="LrM-m3-Y4I" firstAttribute="top" secondItem="eYB-zf-nGS" secondAttribute="top" id="rZy-Hw-yne"/>
+                            <constraint firstAttribute="bottom" secondItem="LrM-m3-Y4I" secondAttribute="bottom" id="rg2-sZ-6xm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xdq-fD-xEY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="e8c-pX-brk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d7F-Tc-Jhv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1769" y="464"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8ca-3S-KKv">
+            <objects>
+                <viewController id="nhE-Nr-io4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yaE-i8-Nle">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space3" translatesAutoresizingMaskIntoConstraints="NO" id="bb3-s4-bMg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="bb3-s4-bMg" secondAttribute="bottom" id="jIJ-zJ-YpR"/>
+                            <constraint firstItem="bb3-s4-bMg" firstAttribute="leading" secondItem="Sv5-Ei-qTy" secondAttribute="leading" id="l50-od-nPh"/>
+                            <constraint firstItem="Sv5-Ei-qTy" firstAttribute="trailing" secondItem="bb3-s4-bMg" secondAttribute="trailing" id="pcJ-pl-pTt"/>
+                            <constraint firstItem="bb3-s4-bMg" firstAttribute="top" secondItem="yaE-i8-Nle" secondAttribute="top" id="reH-jv-dKB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Sv5-Ei-qTy"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3sm-mX-KZN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7jV-EW-poy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2506" y="667"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9ql-Bd-nh4">
+            <objects>
+                <viewController id="pZ9-aG-RhO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tgU-Dd-dfH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space2" translatesAutoresizingMaskIntoConstraints="NO" id="vhj-NP-tor">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vhj-NP-tor" firstAttribute="leading" secondItem="Xfq-LM-5xI" secondAttribute="leading" id="0Gx-Ya-YBF"/>
+                            <constraint firstAttribute="bottom" secondItem="vhj-NP-tor" secondAttribute="bottom" id="2wb-Tp-lZp"/>
+                            <constraint firstItem="vhj-NP-tor" firstAttribute="top" secondItem="tgU-Dd-dfH" secondAttribute="top" id="500-Kn-D4d"/>
+                            <constraint firstItem="Xfq-LM-5xI" firstAttribute="trailing" secondItem="vhj-NP-tor" secondAttribute="trailing" id="bOb-8M-5fg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Xfq-LM-5xI"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="y6U-2s-qTv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8as-xJ-Wtq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2505" y="2042"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xhj-XE-c0J">
+            <objects>
+                <viewController id="SJD-xo-MGw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oxv-SP-iMk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space4" translatesAutoresizingMaskIntoConstraints="NO" id="OGF-Nr-j5l">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="XTx-co-u8w" firstAttribute="trailing" secondItem="OGF-Nr-j5l" secondAttribute="trailing" id="KtW-J7-xs0"/>
+                            <constraint firstAttribute="bottom" secondItem="OGF-Nr-j5l" secondAttribute="bottom" id="fnD-sr-bvf"/>
+                            <constraint firstItem="OGF-Nr-j5l" firstAttribute="leading" secondItem="XTx-co-u8w" secondAttribute="leading" id="wi8-Yb-VuU"/>
+                            <constraint firstItem="OGF-Nr-j5l" firstAttribute="top" secondItem="oxv-SP-iMk" secondAttribute="top" id="wjf-3o-3TF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="XTx-co-u8w"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q4K-tG-qXX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fh5-lV-d7B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2505" y="1370"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="vun-9a-dVa">
             <objects>
@@ -303,8 +415,12 @@
     </scenes>
     <resources>
         <image name="films" width="50" height="50"/>
+        <image name="homeworld" width="460" height="864"/>
         <image name="homeworld_icon" width="50" height="50"/>
         <image name="space1" width="699" height="1120"/>
+        <image name="space2" width="329" height="610"/>
+        <image name="space3" width="470" height="877"/>
+        <image name="space4" width="278" height="488"/>
         <image name="starships" width="50" height="50"/>
         <image name="vehicles" width="50" height="50"/>
     </resources>

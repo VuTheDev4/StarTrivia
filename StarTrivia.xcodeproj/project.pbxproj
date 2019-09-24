@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD0E2F010840BAA9F1BBAD30 /* Pods_StarTrivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4164F4C0914AF052714EE7D /* Pods_StarTrivia.framework */; };
+		EABBFD172334226B00974CDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABBFD162334226B00974CDF /* AppDelegate.swift */; };
+		EABBFD192334226B00974CDF /* SelectPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABBFD182334226B00974CDF /* SelectPersonVC.swift */; };
+		EABBFD1C2334226B00974CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABBFD1A2334226B00974CDF /* Main.storyboard */; };
+		EABBFD1E2334226D00974CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABBFD1D2334226D00974CDF /* Assets.xcassets */; };
+		EABBFD212334226D00974CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABBFD1F2334226D00974CDF /* LaunchScreen.storyboard */; };
+		EABBFD2B2334289700974CDF /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EABBFD282334289700974CDF /* Starjout.ttf */; };
+		EABBFD2C2334289700974CDF /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EABBFD292334289700974CDF /* Starjedi.ttf */; };
+		EABBFD2D2334289700974CDF /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EABBFD2A2334289700974CDF /* Starjhol.ttf */; };
+		EABBFD34233456C900974CDF /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABBFD33233456C900974CDF /* BlackBgView.swift */; };
+		EABBFD37233458DB00974CDF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABBFD36233458DB00974CDF /* Constants.swift */; };
+		EAEAF4582339DC90006CF92F /* FadeEnabledBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF4572339DC90006CF92F /* FadeEnabledBtn.swift */; };
+		EAF5B9FB233469BE00D0C535 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5B9FA233469BE00D0C535 /* PersonApi.swift */; };
+		EAF5B9FD2335322700D0C535 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5B9FC2335322700D0C535 /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		110E9596BF8CA9E68D3067F9 /* Pods-StarTrivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia.release.xcconfig"; sourceTree = "<group>"; };
+		6457CB70FD3BA2CD3BDBB866 /* Pods-StarTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia.debug.xcconfig"; sourceTree = "<group>"; };
+		A4164F4C0914AF052714EE7D /* Pods_StarTrivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarTrivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABBFD132334226B00974CDF /* StarTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABBFD162334226B00974CDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EABBFD182334226B00974CDF /* SelectPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonVC.swift; sourceTree = "<group>"; };
+		EABBFD1B2334226B00974CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EABBFD1D2334226D00974CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EABBFD202334226D00974CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EABBFD222334226D00974CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EABBFD282334289700974CDF /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		EABBFD292334289700974CDF /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		EABBFD2A2334289700974CDF /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
+		EABBFD33233456C900974CDF /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
+		EABBFD36233458DB00974CDF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EAEAF4572339DC90006CF92F /* FadeEnabledBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeEnabledBtn.swift; sourceTree = "<group>"; };
+		EAF5B9FA233469BE00D0C535 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		EAF5B9FC2335322700D0C535 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EABBFD102334226B00974CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0E2F010840BAA9F1BBAD30 /* Pods_StarTrivia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F08B489A934C3A5B7FDD75C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6457CB70FD3BA2CD3BDBB866 /* Pods-StarTrivia.debug.xcconfig */,
+				110E9596BF8CA9E68D3067F9 /* Pods-StarTrivia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90E0BE5B00E2BA6B3D8F088D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4164F4C0914AF052714EE7D /* Pods_StarTrivia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EABBFD0A2334226B00974CDF = {
+			isa = PBXGroup;
+			children = (
+				EABBFD152334226B00974CDF /* StarTrivia */,
+				EABBFD142334226B00974CDF /* Products */,
+				3F08B489A934C3A5B7FDD75C /* Pods */,
+				90E0BE5B00E2BA6B3D8F088D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EABBFD142334226B00974CDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EABBFD132334226B00974CDF /* StarTrivia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EABBFD152334226B00974CDF /* StarTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				EABBFD3223342A0D00974CDF /* Model */,
+				EABBFD3123342A0000974CDF /* View */,
+				EABBFD302334296E00974CDF /* Controllers */,
+				EABBFD162334226B00974CDF /* AppDelegate.swift */,
+				EABBFD182334226B00974CDF /* SelectPersonVC.swift */,
+				EAF5B9F92334699500D0C535 /* Services */,
+				EABBFD352334588400974CDF /* Utils */,
+				EABBFD2F2334295E00974CDF /* Resources */,
+				EABBFD1A2334226B00974CDF /* Main.storyboard */,
+				EABBFD1D2334226D00974CDF /* Assets.xcassets */,
+				EABBFD1F2334226D00974CDF /* LaunchScreen.storyboard */,
+				EABBFD222334226D00974CDF /* Info.plist */,
+			);
+			path = StarTrivia;
+			sourceTree = "<group>";
+		};
+		EABBFD2E233428A500974CDF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EABBFD292334289700974CDF /* Starjedi.ttf */,
+				EABBFD2A2334289700974CDF /* Starjhol.ttf */,
+				EABBFD282334289700974CDF /* Starjout.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EABBFD2F2334295E00974CDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EABBFD2E233428A500974CDF /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EABBFD302334296E00974CDF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EABBFD3123342A0000974CDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EABBFD33233456C900974CDF /* BlackBgView.swift */,
+				EAEAF4572339DC90006CF92F /* FadeEnabledBtn.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EABBFD3223342A0D00974CDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5B9FC2335322700D0C535 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EABBFD352334588400974CDF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EABBFD36233458DB00974CDF /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EAF5B9F92334699500D0C535 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5B9FA233469BE00D0C535 /* PersonApi.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EABBFD122334226B00974CDF /* StarTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABBFD252334226D00974CDF /* Build configuration list for PBXNativeTarget "StarTrivia" */;
+			buildPhases = (
+				9A9E4DAFC9E21AE9337108B5 /* [CP] Check Pods Manifest.lock */,
+				EABBFD0F2334226B00974CDF /* Sources */,
+				EABBFD102334226B00974CDF /* Frameworks */,
+				EABBFD112334226B00974CDF /* Resources */,
+				C24033A9E047BC74EC2F752B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarTrivia;
+			productName = StarTrivia;
+			productReference = EABBFD132334226B00974CDF /* StarTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EABBFD0B2334226B00974CDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Vu Duong";
+				TargetAttributes = {
+					EABBFD122334226B00974CDF = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = EABBFD0E2334226B00974CDF /* Build configuration list for PBXProject "StarTrivia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EABBFD0A2334226B00974CDF;
+			productRefGroup = EABBFD142334226B00974CDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EABBFD122334226B00974CDF /* StarTrivia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EABBFD112334226B00974CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABBFD2B2334289700974CDF /* Starjout.ttf in Resources */,
+				EABBFD2D2334289700974CDF /* Starjhol.ttf in Resources */,
+				EABBFD212334226D00974CDF /* LaunchScreen.storyboard in Resources */,
+				EABBFD1E2334226D00974CDF /* Assets.xcassets in Resources */,
+				EABBFD2C2334289700974CDF /* Starjedi.ttf in Resources */,
+				EABBFD1C2334226B00974CDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A9E4DAFC9E21AE9337108B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarTrivia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C24033A9E047BC74EC2F752B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EABBFD0F2334226B00974CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAEAF4582339DC90006CF92F /* FadeEnabledBtn.swift in Sources */,
+				EAF5B9FD2335322700D0C535 /* Person.swift in Sources */,
+				EABBFD192334226B00974CDF /* SelectPersonVC.swift in Sources */,
+				EABBFD172334226B00974CDF /* AppDelegate.swift in Sources */,
+				EABBFD34233456C900974CDF /* BlackBgView.swift in Sources */,
+				EAF5B9FB233469BE00D0C535 /* PersonApi.swift in Sources */,
+				EABBFD37233458DB00974CDF /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EABBFD1A2334226B00974CDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABBFD1B2334226B00974CDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EABBFD1F2334226D00974CDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABBFD202334226D00974CDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EABBFD232334226D00974CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EABBFD242334226D00974CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EABBFD262334226D00974CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6457CB70FD3BA2CD3BDBB866 /* Pods-StarTrivia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SL2PQN527J;
+				INFOPLIST_FILE = StarTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vuduong.StarTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EABBFD272334226D00974CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 110E9596BF8CA9E68D3067F9 /* Pods-StarTrivia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SL2PQN527J;
+				INFOPLIST_FILE = StarTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vuduong.StarTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EABBFD0E2334226B00974CDF /* Build configuration list for PBXProject "StarTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABBFD232334226D00974CDF /* Debug */,
+				EABBFD242334226D00974CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABBFD252334226D00974CDF /* Build configuration list for PBXNativeTarget "StarTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABBFD262334226D00974CDF /* Debug */,
+				EABBFD272334226D00974CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EABBFD0B2334226B00974CDF /* Project object */;
+}

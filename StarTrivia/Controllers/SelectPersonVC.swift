@@ -23,6 +23,7 @@ class SelectPersonVC: UIViewController {
     @IBOutlet weak var filmsBtn: UIButton!
     
     var personApi = PersonApi()
+    var person : Person!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +37,7 @@ class SelectPersonVC: UIViewController {
         personApi.getRandomPersonAlamo(id: random) { (person) in
             if let person = person {
                 self.setupView(person: person)
+                self.person = person
             }
         }
         
@@ -57,16 +59,26 @@ class SelectPersonVC: UIViewController {
         
     }
     
-    @IBAction func homeworldClicked(_ sender: Any) {
-    }
-    
-    @IBAction func vehiclesClicked(_ sender: Any) {
-    }
-    
-    @IBAction func starshipsClicked(_ sender: Any) {
-    }
-    
-    @IBAction func filmsClicked(_ sender: Any) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "toHomeWorld" {
+            if let destination = segue.destination as? HomeworldVC {
+                destination.person = person
+            }
+        } else if segue.identifier == "toVehicles" {
+            if let destination = segue.destination as? VehiclesVC {
+                destination.person = person
+            }
+        } else  if segue.identifier == "toStarships" {
+            if let destination = segue.destination as? StarshipsVC {
+                destination.person = person
+            }
+        } else if segue.identifier == "toFilms" {
+            if let destination = segue.destination as? FilmsVC {
+                destination.person = person
+            }
+        }
+        
     }
     
 }

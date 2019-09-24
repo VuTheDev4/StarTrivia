@@ -196,8 +196,7 @@
                                                 </constraints>
                                                 <state key="normal" image="homeworld_icon"/>
                                                 <connections>
-                                                    <action selector="homeworldClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c9d-Zs-OAw"/>
-                                                    <segue destination="QEg-De-l3N" kind="show" id="l8N-xv-g55"/>
+                                                    <segue destination="QEg-De-l3N" kind="show" identifier="toHomeWorld" id="l8N-xv-g55"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="znM-QR-qBx">
@@ -208,8 +207,7 @@
                                                 </constraints>
                                                 <state key="normal" image="vehicles"/>
                                                 <connections>
-                                                    <action selector="vehiclesClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Ny-Lk-N4I"/>
-                                                    <segue destination="nhE-Nr-io4" kind="show" id="C14-f4-jtc"/>
+                                                    <segue destination="nhE-Nr-io4" kind="show" identifier="toVehicles" id="C14-f4-jtc"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVP-Fw-J7L">
@@ -220,8 +218,7 @@
                                                 </constraints>
                                                 <state key="normal" image="starships"/>
                                                 <connections>
-                                                    <action selector="starshipsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DPo-BD-ewt"/>
-                                                    <segue destination="SJD-xo-MGw" kind="show" id="AMa-dk-GgN"/>
+                                                    <segue destination="SJD-xo-MGw" kind="show" identifier="toStarships" id="AMa-dk-GgN"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WO1-tQ-aeP">
@@ -232,8 +229,7 @@
                                                 </constraints>
                                                 <state key="normal" image="films"/>
                                                 <connections>
-                                                    <action selector="filmsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v1A-bC-m5J"/>
-                                                    <segue destination="pZ9-aG-RhO" kind="show" id="aRd-yK-b2w"/>
+                                                    <segue destination="pZ9-aG-RhO" kind="show" identifier="toFilms" id="aRd-yK-b2w"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -286,10 +282,10 @@
             </objects>
             <point key="canvasLocation" x="994" y="734"/>
         </scene>
-        <!--View Controller-->
+        <!--HomeworldVC-->
         <scene sceneID="gF8-T7-Q6r">
             <objects>
-                <viewController id="QEg-De-l3N" sceneMemberID="viewController">
+                <viewController id="QEg-De-l3N" customClass="HomeworldVC" customModule="StarTrivia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eYB-zf-nGS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -313,10 +309,10 @@
             </objects>
             <point key="canvasLocation" x="1769" y="464"/>
         </scene>
-        <!--View Controller-->
+        <!--VehiclesVC-->
         <scene sceneID="8ca-3S-KKv">
             <objects>
-                <viewController id="nhE-Nr-io4" sceneMemberID="viewController">
+                <viewController id="nhE-Nr-io4" customClass="VehiclesVC" customModule="StarTrivia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yaE-i8-Nle">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -340,10 +336,10 @@
             </objects>
             <point key="canvasLocation" x="2506" y="667"/>
         </scene>
-        <!--View Controller-->
+        <!--FilmsVC-->
         <scene sceneID="9ql-Bd-nh4">
             <objects>
-                <viewController id="pZ9-aG-RhO" sceneMemberID="viewController">
+                <viewController id="pZ9-aG-RhO" customClass="FilmsVC" customModule="StarTrivia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tgU-Dd-dfH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -367,10 +363,10 @@
             </objects>
             <point key="canvasLocation" x="2505" y="2042"/>
         </scene>
-        <!--View Controller-->
+        <!--StarshipsVC-->
         <scene sceneID="xhj-XE-c0J">
             <objects>
-                <viewController id="SJD-xo-MGw" sceneMemberID="viewController">
+                <viewController id="SJD-xo-MGw" customClass="StarshipsVC" customModule="StarTrivia" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oxv-SP-iMk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

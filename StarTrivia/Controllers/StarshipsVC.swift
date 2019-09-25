@@ -8,13 +8,13 @@
 
 import UIKit
 
-class StarshipsVC: UIViewController {
+class StarshipsVC: UIViewController, PersonProtocol {
     
     var person : Person!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+print(person.name)
     }
     
 

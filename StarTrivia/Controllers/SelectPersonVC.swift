@@ -60,26 +60,42 @@ class SelectPersonVC: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if segue.identifier == "toHomeWorld" {
-            if let destination = segue.destination as? HomeworldVC {
-                destination.person = person
-            }
-        } else if segue.identifier == "toVehicles" {
-            if let destination = segue.destination as? VehiclesVC {
-                destination.person = person
-            }
-        } else  if segue.identifier == "toStarships" {
-            if let destination = segue.destination as? StarshipsVC {
-                destination.person = person
-            }
-        } else if segue.identifier == "toFilms" {
-            if let destination = segue.destination as? FilmsVC {
-                destination.person = person
-            }
+        //Better Route
+        if var destination = segue.destination as? PersonProtocol{
+            destination.person = person
         }
-        
+        //Possible Route
+//        switch segue.identifier {
+//        case Segue.homeworld.rawValue:
+//            if let destination = segue.destination as? HomeworldVC {
+//                destination.person = person
+//            }
+//        case Segue.vehicles.rawValue:
+//            if let destination = segue.destination as? VehiclesVC {
+//                    destination.person = person
+//            }
+//        case Segue.starships.rawValue:
+//            if let destination = segue.destination as? StarshipsVC {
+//                destination.person = person
+//            }
+//        case Segue.films.rawValue:
+//            if let destination = segue.destination as? FilmsVC {
+//                destination.person = person
+//            }
+//        default:
+//            break
+//        }
     }
+    
+//    enum Segue : String {
+//        case homeworld = "toHomeWorld"
+//        case vehicles = "toVehicles"
+//        case starships = "toStarships"
+//        case films = "toFilms"
+//    }
     
 }
 
+protocol PersonProtocol {
+    var person : Person! {get set}
+}

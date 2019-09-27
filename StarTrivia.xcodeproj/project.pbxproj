@@ -23,6 +23,8 @@
 		EAEAF45C233A9BE5006CF92F /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF45B233A9BE5006CF92F /* VehiclesVC.swift */; };
 		EAEAF45E233A9BFF006CF92F /* StarshipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF45D233A9BFF006CF92F /* StarshipsVC.swift */; };
 		EAEAF460233A9C25006CF92F /* FilmsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF45F233A9C25006CF92F /* FilmsVC.swift */; };
+		EAEAF482233D9834006CF92F /* Homeworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF481233D9834006CF92F /* Homeworld.swift */; };
+		EAEAF484233D98C1006CF92F /* HomeworldApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF483233D98C1006CF92F /* HomeworldApi.swift */; };
 		EAF5B9FB233469BE00D0C535 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5B9FA233469BE00D0C535 /* PersonApi.swift */; };
 		EAF5B9FD2335322700D0C535 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5B9FC2335322700D0C535 /* Person.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +50,8 @@
 		EAEAF45B233A9BE5006CF92F /* VehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
 		EAEAF45D233A9BFF006CF92F /* StarshipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsVC.swift; sourceTree = "<group>"; };
 		EAEAF45F233A9C25006CF92F /* FilmsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsVC.swift; sourceTree = "<group>"; };
+		EAEAF481233D9834006CF92F /* Homeworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworld.swift; sourceTree = "<group>"; };
+		EAEAF483233D98C1006CF92F /* HomeworldApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldApi.swift; sourceTree = "<group>"; };
 		EAF5B9FA233469BE00D0C535 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
 		EAF5B9FC2335322700D0C535 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				EAF5B9FC2335322700D0C535 /* Person.swift */,
+				EAEAF481233D9834006CF92F /* Homeworld.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				EAF5B9FA233469BE00D0C535 /* PersonApi.swift */,
+				EAEAF483233D98C1006CF92F /* HomeworldApi.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -300,7 +306,9 @@
 				EAEAF4582339DC90006CF92F /* FadeEnabledBtn.swift in Sources */,
 				EAF5B9FD2335322700D0C535 /* Person.swift in Sources */,
 				EAEAF45E233A9BFF006CF92F /* StarshipsVC.swift in Sources */,
+				EAEAF482233D9834006CF92F /* Homeworld.swift in Sources */,
 				EAEAF45C233A9BE5006CF92F /* VehiclesVC.swift in Sources */,
+				EAEAF484233D98C1006CF92F /* HomeworldApi.swift in Sources */,
 				EABBFD192334226B00974CDF /* SelectPersonVC.swift in Sources */,
 				EABBFD172334226B00974CDF /* AppDelegate.swift in Sources */,
 				EABBFD34233456C900974CDF /* BlackBgView.swift in Sources */,

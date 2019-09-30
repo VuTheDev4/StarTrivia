@@ -25,6 +25,8 @@
 		EAEAF460233A9C25006CF92F /* FilmsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF45F233A9C25006CF92F /* FilmsVC.swift */; };
 		EAEAF482233D9834006CF92F /* Homeworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF481233D9834006CF92F /* Homeworld.swift */; };
 		EAEAF484233D98C1006CF92F /* HomeworldApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF483233D98C1006CF92F /* HomeworldApi.swift */; };
+		EAEAF48623424A3C006CF92F /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF48523424A3C006CF92F /* Vehicle.swift */; };
+		EAEAF48823424F62006CF92F /* VehicleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEAF48723424F62006CF92F /* VehicleApi.swift */; };
 		EAF5B9FB233469BE00D0C535 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5B9FA233469BE00D0C535 /* PersonApi.swift */; };
 		EAF5B9FD2335322700D0C535 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5B9FC2335322700D0C535 /* Person.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +54,8 @@
 		EAEAF45F233A9C25006CF92F /* FilmsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsVC.swift; sourceTree = "<group>"; };
 		EAEAF481233D9834006CF92F /* Homeworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworld.swift; sourceTree = "<group>"; };
 		EAEAF483233D98C1006CF92F /* HomeworldApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldApi.swift; sourceTree = "<group>"; };
+		EAEAF48523424A3C006CF92F /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		EAEAF48723424F62006CF92F /* VehicleApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleApi.swift; sourceTree = "<group>"; };
 		EAF5B9FA233469BE00D0C535 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
 		EAF5B9FC2335322700D0C535 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -165,6 +169,7 @@
 			children = (
 				EAF5B9FC2335322700D0C535 /* Person.swift */,
 				EAEAF481233D9834006CF92F /* Homeworld.swift */,
+				EAEAF48523424A3C006CF92F /* Vehicle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 			children = (
 				EAF5B9FA233469BE00D0C535 /* PersonApi.swift */,
 				EAEAF483233D98C1006CF92F /* HomeworldApi.swift */,
+				EAEAF48723424F62006CF92F /* VehicleApi.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -307,7 +313,9 @@
 				EAF5B9FD2335322700D0C535 /* Person.swift in Sources */,
 				EAEAF45E233A9BFF006CF92F /* StarshipsVC.swift in Sources */,
 				EAEAF482233D9834006CF92F /* Homeworld.swift in Sources */,
+				EAEAF48623424A3C006CF92F /* Vehicle.swift in Sources */,
 				EAEAF45C233A9BE5006CF92F /* VehiclesVC.swift in Sources */,
+				EAEAF48823424F62006CF92F /* VehicleApi.swift in Sources */,
 				EAEAF484233D98C1006CF92F /* HomeworldApi.swift in Sources */,
 				EABBFD192334226B00974CDF /* SelectPersonVC.swift in Sources */,
 				EABBFD172334226B00974CDF /* AppDelegate.swift in Sources */,

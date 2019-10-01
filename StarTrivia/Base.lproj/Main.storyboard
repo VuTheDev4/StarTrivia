@@ -967,13 +967,39 @@
                                     <constraint firstItem="7il-wW-E7v" firstAttribute="top" secondItem="dcT-3c-CdG" secondAttribute="top" constant="20" id="ix8-jR-Jig"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhA-et-ZhO" customClass="FadeEnabledBtn" customModule="StarTrivia" customModuleProvider="target">
+                                <rect key="frame" x="20" y="714" width="107" height="44"/>
+                                <fontDescription key="fontDescription" name="StarJedi" family="Star Jedi" pointSize="20"/>
+                                <state key="normal" title="Previous">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="previousClicked:" destination="SJD-xo-MGw" eventType="touchUpInside" id="6mv-gZ-45Q"/>
+                                    <action selector="previousClicked:" destination="nhE-Nr-io4" eventType="touchUpInside" id="Duj-nW-9DX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38B-YM-Biy" customClass="FadeEnabledBtn" customModule="StarTrivia" customModuleProvider="target">
+                                <rect key="frame" x="300" y="714" width="55" height="44"/>
+                                <fontDescription key="fontDescription" name="StarJedi" family="Star Jedi" pointSize="20"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="SJD-xo-MGw" eventType="touchUpInside" id="YFQ-82-d2x"/>
+                                    <action selector="nextClicked:" destination="nhE-Nr-io4" eventType="touchUpInside" id="ykb-EM-oNE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="dcT-3c-CdG" firstAttribute="leading" secondItem="XTx-co-u8w" secondAttribute="leading" constant="20" id="3QV-o0-loL"/>
+                            <constraint firstItem="XTx-co-u8w" firstAttribute="bottom" secondItem="fhA-et-ZhO" secondAttribute="bottom" constant="20" id="5nI-TG-U3y"/>
+                            <constraint firstItem="38B-YM-Biy" firstAttribute="baseline" secondItem="fhA-et-ZhO" secondAttribute="baseline" id="829-0L-rYE"/>
                             <constraint firstItem="XTx-co-u8w" firstAttribute="trailing" secondItem="dcT-3c-CdG" secondAttribute="trailing" constant="20" id="9nd-TV-sYL"/>
+                            <constraint firstItem="38B-YM-Biy" firstAttribute="trailing" secondItem="dcT-3c-CdG" secondAttribute="trailing" id="CGb-xQ-QSd"/>
                             <constraint firstItem="1h2-jf-kju" firstAttribute="top" secondItem="XTx-co-u8w" secondAttribute="top" constant="20" id="HJ0-aI-vDS"/>
                             <constraint firstItem="XTx-co-u8w" firstAttribute="trailing" secondItem="OGF-Nr-j5l" secondAttribute="trailing" id="KtW-J7-xs0"/>
+                            <constraint firstItem="fhA-et-ZhO" firstAttribute="leading" secondItem="XTx-co-u8w" secondAttribute="leading" constant="20" id="QDI-Nc-gIl"/>
                             <constraint firstItem="dcT-3c-CdG" firstAttribute="top" secondItem="1h2-jf-kju" secondAttribute="bottom" constant="50" id="R6f-go-tHy"/>
                             <constraint firstItem="1h2-jf-kju" firstAttribute="leading" secondItem="XTx-co-u8w" secondAttribute="leading" constant="20" id="dJo-Ph-plM"/>
                             <constraint firstAttribute="bottom" secondItem="OGF-Nr-j5l" secondAttribute="bottom" id="fnD-sr-bvf"/>
@@ -994,7 +1020,9 @@
                         <outlet property="makerLbl" destination="oZr-T6-8Sn" id="elV-63-Paa"/>
                         <outlet property="modelLbl" destination="y5k-dV-ddy" id="NsE-Gp-QqF"/>
                         <outlet property="nameLbl" destination="uiz-cE-JHj" id="Dn8-9o-H64"/>
+                        <outlet property="nextBtn" destination="38B-YM-Biy" id="Sy4-BA-ZF9"/>
                         <outlet property="passengersLbl" destination="Pzr-ph-Yg9" id="55i-78-STR"/>
+                        <outlet property="previousBtn" destination="fhA-et-ZhO" id="7Na-68-jdO"/>
                         <outlet property="speedLbl" destination="QRI-hR-cgl" id="APF-WD-dHH"/>
                     </connections>
                 </viewController>

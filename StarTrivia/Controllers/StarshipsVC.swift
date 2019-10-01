@@ -22,19 +22,49 @@ class StarshipsVC: UIViewController, PersonProtocol {
     @IBOutlet weak var consumablesLbl: UILabel!
     @IBOutlet weak var classLbl: UILabel!
     
+    @IBOutlet weak var previousBtn: FadeEnabledBtn!
+    @IBOutlet weak var nextBtn: FadeEnabledBtn!
+    
     
     var person : Person!
     let api = StarshipApi()
     var starships = [String]()
+    var currentStarship = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         starships = person.starshipUrls
-        guard let firststarship = starships.first else { return }
-        getStarship(url: firststarship)
+        previousBtn.isEnabled = false
+        nextBtn.isEnabled = starships.count > 1
+        guard let firstStarship = starships.first else { return }
+        getStarship(url: firstStarship)
         
     }
+    
+    @IBAction func previousClicked(_ sender: Any) {
+        
+        currentStarship -= 1
+        setButtonState()
+        
+    }
+    
+    
+    @IBAction func nextClicked(_ sender: Any) {
+        
+        currentStarship += 1
+        setButtonState()
+        
+    }
+    
+    func setButtonState() {
+        nextBtn.isEnabled = currentStarship == starships.count - 1 ? false : true
+        
+        previousBtn.isEnabled = currentStarship == 0 ? false : true
+        
+        getStarship(url: starships[currentStarship])
+    }
+    
     
     func getStarship(url: String) {
         api.getStarship(url: url) { (starship) in

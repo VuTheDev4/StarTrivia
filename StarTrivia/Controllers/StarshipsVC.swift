@@ -14,7 +14,7 @@ class StarshipsVC: UIViewController, PersonProtocol {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-print(person.name)
+
     }
     
 

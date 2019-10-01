@@ -731,7 +731,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dcT-3c-CdG" customClass="BlackBgView" customModule="StarTrivia" customModuleProvider="target">
-                                <rect key="frame" x="20" y="185.66666666666666" width="335" height="440.66666666666674"/>
+                                <rect key="frame" x="20" y="238.00000000000003" width="335" height="440.66666666666674"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7il-wW-E7v">
                                         <rect key="frame" x="20" y="20" width="295" height="400.66666666666669"/>
@@ -757,7 +757,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fIF-d6-0u1">
-                                                <rect key="frame" x="0.0" y="37.333333333333343" width="295" height="27.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="37.333333333333314" width="295" height="27.333333333333329"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Model:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSd-qc-ybz">
                                                         <rect key="frame" x="0.0" y="0.0" width="70" height="27.333333333333332"/>
@@ -777,7 +777,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Imp-1C-OcF">
-                                                <rect key="frame" x="0.0" y="74.666666666666657" width="295" height="27.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="74.666666666666686" width="295" height="27.333333333333329"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maker:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="juV-Zx-Jlf">
                                                         <rect key="frame" x="0.0" y="0.0" width="68.666666666666671" height="27.333333333333332"/>
@@ -797,7 +797,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="MGx-xf-Q6e">
-                                                <rect key="frame" x="0.0" y="112.00000000000003" width="295" height="27.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="112" width="295" height="27.333333333333343"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cost:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FxL-yt-wd8">
                                                         <rect key="frame" x="0.0" y="0.0" width="53" height="27.333333333333332"/>
@@ -817,7 +817,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="0em-Xs-wPz">
-                                                <rect key="frame" x="0.0" y="149.33333333333334" width="295" height="27.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="149.33333333333331" width="295" height="27.333333333333343"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Length:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUd-PA-87i">
                                                         <rect key="frame" x="0.0" y="0.0" width="75.666666666666671" height="27.333333333333332"/>
@@ -837,7 +837,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="dFn-Gn-pSr">
-                                                <rect key="frame" x="0.0" y="186.66666666666666" width="295" height="27.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="186.66666666666669" width="295" height="27.333333333333343"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speed:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8CK-MM-h0b">
                                                         <rect key="frame" x="0.0" y="0.0" width="64.666666666666671" height="27.333333333333332"/>
@@ -857,7 +857,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Zg2-di-HDv">
-                                                <rect key="frame" x="0.0" y="224.00000000000003" width="295" height="27.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="224" width="295" height="27.333333333333343"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crew:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uI-Q4-l3V">
                                                         <rect key="frame" x="0.0" y="0.0" width="57.666666666666664" height="27.333333333333332"/>
@@ -972,9 +972,9 @@
                         <constraints>
                             <constraint firstItem="dcT-3c-CdG" firstAttribute="leading" secondItem="XTx-co-u8w" secondAttribute="leading" constant="20" id="3QV-o0-loL"/>
                             <constraint firstItem="XTx-co-u8w" firstAttribute="trailing" secondItem="dcT-3c-CdG" secondAttribute="trailing" constant="20" id="9nd-TV-sYL"/>
-                            <constraint firstItem="dcT-3c-CdG" firstAttribute="centerY" secondItem="oxv-SP-iMk" secondAttribute="centerY" id="Cxn-Tv-K2l"/>
                             <constraint firstItem="1h2-jf-kju" firstAttribute="top" secondItem="XTx-co-u8w" secondAttribute="top" constant="20" id="HJ0-aI-vDS"/>
                             <constraint firstItem="XTx-co-u8w" firstAttribute="trailing" secondItem="OGF-Nr-j5l" secondAttribute="trailing" id="KtW-J7-xs0"/>
+                            <constraint firstItem="dcT-3c-CdG" firstAttribute="top" secondItem="1h2-jf-kju" secondAttribute="bottom" constant="50" id="R6f-go-tHy"/>
                             <constraint firstItem="1h2-jf-kju" firstAttribute="leading" secondItem="XTx-co-u8w" secondAttribute="leading" constant="20" id="dJo-Ph-plM"/>
                             <constraint firstAttribute="bottom" secondItem="OGF-Nr-j5l" secondAttribute="bottom" id="fnD-sr-bvf"/>
                             <constraint firstItem="XTx-co-u8w" firstAttribute="trailing" secondItem="1h2-jf-kju" secondAttribute="trailing" constant="20" id="mD6-xp-AOM"/>
@@ -984,6 +984,19 @@
                         <viewLayoutGuide key="safeArea" id="XTx-co-u8w"/>
                     </view>
                     <navigationItem key="navigationItem" id="Q4K-tG-qXX"/>
+                    <connections>
+                        <outlet property="cargoCapLbl" destination="swv-CC-exZ" id="3aT-cv-icc"/>
+                        <outlet property="classLbl" destination="NZZ-yS-nbT" id="RAW-dq-Ugf"/>
+                        <outlet property="consumablesLbl" destination="a3b-Od-Gqd" id="NmO-4g-2nE"/>
+                        <outlet property="costLbl" destination="k4u-Rv-Czd" id="DLO-fE-lUu"/>
+                        <outlet property="crewLbl" destination="L4t-gv-mTK" id="k3b-fv-FGL"/>
+                        <outlet property="lengthLbl" destination="84X-Nd-rFg" id="Naj-ge-kZl"/>
+                        <outlet property="makerLbl" destination="oZr-T6-8Sn" id="elV-63-Paa"/>
+                        <outlet property="modelLbl" destination="y5k-dV-ddy" id="NsE-Gp-QqF"/>
+                        <outlet property="nameLbl" destination="uiz-cE-JHj" id="Dn8-9o-H64"/>
+                        <outlet property="passengersLbl" destination="Pzr-ph-Yg9" id="55i-78-STR"/>
+                        <outlet property="speedLbl" destination="QRI-hR-cgl" id="APF-WD-dHH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fh5-lV-d7B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

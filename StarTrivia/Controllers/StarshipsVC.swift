@@ -58,11 +58,9 @@ class StarshipsVC: UIViewController, PersonProtocol {
     }
     
     func setButtonState() {
-        nextBtn.isEnabled = currentStarship == starships.count - 1 ? false : true
         
-        previousBtn.isEnabled = currentStarship == 0 ? false : true
         
-        getStarship(url: starships[currentStarship])
+        
     }
     
     
